@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0e0e0e;
+    color: #f2f2f2;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.content {
+    width: fit-content;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #1d1d1d;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background: #222;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#jam-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#school-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card a {
+    color: #4dd0ff;
+    text-decoration: none;
+}
+
+.project-card img {
+    height: auto;
+    width:250px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
