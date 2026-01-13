@@ -63,6 +63,18 @@ const school_projects = [
         tech: ["Godot", "GDScript"],
         images: ["TON1.jpg"],
         link: "https://ericc1231.itch.io/tomb-of-noctis"
+    },
+    {
+        title: "USST Rocket telemetry software",
+        description: "Telemetry software for the USST rocket for a comprtition hosted every year. The project consists of hardware and software collaboration to make a working rocket before the July deadline.",
+        tech: ["Git", "PlatformIO", "C++", "Teensy", "I2C"],
+        link: "https://github.com/USSTRocketry/infozilla"
+    },
+    {
+        title: "USST Rocket ground station software",
+        description: "Ground station side of the telemetry software for the USST rocket for a comprtition hosted every year. The project consists of software and hardware collabaration to recieve data from the rocket and display it on the built-in screen. Currently in early development.",
+        tech: ["Git", "PlatformIO", "C++", "Python", "ESP32", "PyQt6"],
+        link: "https://github.com/USSTRocketry/Houston"
     }
 ]
 
